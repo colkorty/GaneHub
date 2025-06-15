@@ -1,1 +1,1 @@
-# GaneHub
+# GameHub
