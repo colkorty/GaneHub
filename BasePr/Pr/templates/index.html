@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+
+{% block content %}
+<link rel="stylesheet" type="text/css" href="../static/css/style.css"/>
+<h2 class="h2o">Список игр</h2>
+{% if current_user.is_authenticated %}
+<div class="floor-one">
+
+    <div class="game">
+        <img src="../static/img/pir.png" alt="" class="upper">
+
+        <div class = "text-center">Финансовая пирамидка</div>
+
+        <a class="button-game" href="/playgame1">Играть</a>
+
+
+    </div>
+
+     <div class="game">
+        <img src="../static/img/kash.png" alt="" class="upper">
+
+        <div class = "text-center">Cash Strike</div>
+
+        <a class="button-game" href="/game1">Играть</a>
+
+
+    </div>
+
+
+     <div class="game">
+        <img src="../static/img/click.png" alt="" class="upper">
+
+        <div class = "text-center">Invest Clicker</div>
+
+        <a class="button-game" href="/index2">Играть</a>
+
+
+    </div>
+
+
+     <div class="game">
+        <img src="" alt="" class="upper">
+
+        <div class = "text-center">name</div>
+
+        <a class="button-game" href="/playgame4">Играть</a>
+
+
+    </div>
+
+
+
+
+</div>
+{%else%}
+<h4 class ="avt">Авторизуйтесь для начала игры</h4>
+{% endif %}
+{% endblock %}

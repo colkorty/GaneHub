@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+body{
+    margin: 0;
+    background-color: #0B0C10;
+    
+    
+    background-image: url(../img/background1.png);
+    object-fit: cover;
+    
+    background-size: cover;
+    backdrop-filter: blur(15px)
+}
+.points{
+    position: absolute;
+}
+.header{
+    width: 150px;
+    height: 100px;
+    margin-top: 30px;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    background-image: url(../img/logo2.png);
+    
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    
+}
+.hello{
+    font-size: 120px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000c25;
+    position: absolute;
+    font-family: Unbounded;
+    text-align: center;
+    transition: opacity 1s ease-in-out;
+    font-weight:bold ;
+}
+.text{
+    font-size:24px;
+    width: 500px;
+    height: 50px;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: #ffffff;
+    font-family: Nunito Sans;
+    text-align: center;
+    transition: opacity 1s ease-in-out;
+}
+.menu{
+    top: 10%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    font-family: Unbounded;
+ 
+    font-size:30px; 
+    color: #000c25;
+
+}
+.next{
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    position: absolute;
+    height: 50px;
+    width: 130px;
+    background-color: transparent;
+    border: #66FCF1 solid 3px;
+    font-family: Unbounded;
+    color: #ffffff;
+    transition: 0.5s;
+}
+.next:hover{
+    background-color: #66FCF1;
+    color: #000c25;
+}
+.under{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(72, 72, 72);
+    position: absolute;
+    margin-top: 100vh;
+    display: block;
+    justify-content: space-between;
+}
+.floor-one{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+    font-family: Unbounded;
+}
+.buff-one{
+    width: 200px;
+    height: 250px;
+    border: #66FCF1 solid 3px;
+    margin-top: 20px;
+    transition: 0.5s;
+    background-color: transparent;
+    font-family: Unbounded;
+    color: #66FCF1;
+}
+.buff-one-2{
+    width: 200px;
+    height: 250px;
+    border: #66FCF1 solid 3px;
+    margin-top: 20px;
+    transition: 0.5s;
+    color: #66FCF1;
+    background-color: transparent;
+}
+.buff-one:hover{
+    background-color: #66FCF1;
+    color: #000c25;
+    
+}
+.buff-one-2:hover{
+    background-color: #66FCF1;
+    color: #000c25;
+   
+}
+.points{
+    left: 80%;
+    top: 7%;
+    color: #000c25;
+    font-family: Unbounded;
+    font-size: 30px;
+}
+.pointsNOW{
+    left: 69%;
+    top: 12%;
+    color: #000c25;
+    font-family: Unbounded;
+    font-size: 30px;
+    position: absolute;
+}
+.back
+{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 3px;
+    left: 40px;
+    font-weight: bold;
+    font-size: 50px;
+}
+.back:hover
+{
+    cursor: pointer;
+    color: #A4DD00;
+}
